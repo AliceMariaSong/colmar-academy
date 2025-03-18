@@ -6,13 +6,28 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    align-items: center;  
+    position: fixed; 
+    width: 100%; 
+    height: 64px; 
+    background-color: white; 
 }
 
-.nav-logo {
-    display: flex;
+.nav-container p {
+    font-size: 32px; 
 }
 
-.nav-links ul li {
+.nav-container p span {
+    color: grey; 
+}
+
+.nav-container img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px; 
+    }
+
+.nav-links {
     display: flex; 
+    list-style: none; 
 }
