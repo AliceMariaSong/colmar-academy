@@ -11,12 +11,34 @@ body {
     background-color: white; 
     justify-content: space-between; 
     align-items: center; 
+    position: fixed;  
 
+}
+
+.nav-container p {
+    font-size: 32px; 
+    font-weight: 600; 
+    letter-spacing: 0.75px; 
+}
+
+.nav-container p span {
+    color: grey; 
+    font-weight: 300;  
+}
+
+.nav-container img {
+    height: 55px; 
+    width: 55px; 
 }
 
 .nav-links {
     display: flex; 
     width: 100%; 
     justify-content: flex-end; 
-    list-style: none; 
+    list-style: none;  
+    padding-right: 24px; 
 }
+
+.nav-links li {
+    padding: 0 16px; 
+} 
