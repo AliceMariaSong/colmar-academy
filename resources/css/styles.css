@@ -1,0 +1,18 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* NAV BAR */
+
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.nav-links ul li {
+    display: flex; 
+}
