@@ -1,5 +1,7 @@
 body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 0px auto; 
+    margin: 0px auto; 
 }
 
 /* NAV BAR */
@@ -17,19 +19,23 @@ body {
 }
 
 .nav-container p {
-    font-size: 32px; 
+    font-size: 16px; 
     font-weight: 600; 
     letter-spacing: 0.75px; 
+    padding-left: 5px; 
+    padding-bottom: 1px; 
 }
 
 .nav-container p span {
     color: grey; 
-    font-weight: 300;  
+    font-weight: 300; 
+    padding-left: 2px;  
 }
 
 .nav-container img {
-    height: 55px; 
-    width: 55px; 
+    height: 32px; 
+    width: 32px; 
+    padding-left: 20px; 
 }
 
 .nav-links {
@@ -38,8 +44,25 @@ body {
     justify-content: flex-end; 
     list-style: none;  
     padding-right: 24px; 
+    font-size: 15px; 
 }
 
 .nav-links li {
     padding: 0 16px; 
 } 
+
+/* SECTION 1 */ 
+
+.main-container-1 {
+    background-color: lightgray;
+    padding: 64px 24px; 
+    display: flex; 
+    align-items: center; 
+}
+
+.main-container-1 img {
+    width: 60%; 
+    padding: 32px 0; 
+}
+
+
