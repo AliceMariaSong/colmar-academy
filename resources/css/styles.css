@@ -2,32 +2,25 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
+* {
+    box-sizing: border-box; 
+    width: 100%; 
+}
+
 /* NAV BAR */
 
 .nav-container {
     display: flex;
     align-items: center;  
-    position: fixed; 
+    justify-content: center;   
     width: 100%; 
     height: 64px; 
     background-color: white; 
+    z-index: 2;  
+
 }
 
-.nav-container p {
-    font-size: 32px; 
-}
-
-.nav-container p span {
-    color: grey; 
-}
-
-.nav-container img {
-    width: 50px;
-    height: 50px;
-    margin-left: 10px; 
-    }
-
-.nav-links {
+.nav-logo {
     display: flex; 
-    list-style: none; 
+    justify-content: center; 
 }
