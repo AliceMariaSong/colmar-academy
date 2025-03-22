@@ -111,6 +111,7 @@ body {
 .section-2 {
     display: flex; 
     width: 100%; 
+    flex-direction: row; 
 }
 
 .section-2-main-text {
@@ -120,18 +121,22 @@ body {
 }
 
 .section-2-secondary-text {
+    width: 40%;
     display: flex; 
-    width: 40%; 
 }
 
 .orientation-date {
     display: flex; 
-    width: 40%; 
+    flex-direction: row;  
     height: 33%; 
-    flex-direction: column; 
 }
 
 .orientation-date-text {
     display: flex; 
     flex-direction: column; 
+}
+
+.our-campus {
+    display: flex; 
+    flex-direction: row; 
 }
