@@ -104,3 +104,34 @@ body {
     text-decoration: none;
     font-weight: 200; 
 }
+
+/* SECTION 2 */ 
+
+
+.section-2 {
+    display: flex; 
+    width: 100%; 
+}
+
+.section-2-main-text {
+    display: flex; 
+    flex-direction: column; 
+    width: 60%; 
+}
+
+.section-2-secondary-text {
+    display: flex; 
+    width: 40%; 
+}
+
+.orientation-date {
+    display: flex; 
+    width: 40%; 
+    height: 33%; 
+    flex-direction: column; 
+}
+
+.orientation-date-text {
+    display: flex; 
+    flex-direction: column; 
+}
