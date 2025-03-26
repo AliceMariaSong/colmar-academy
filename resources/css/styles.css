@@ -20,8 +20,28 @@ nav {
 
 }
 
+.logo {
+    width: 280px; 
+    display: flex; 
+    align-items: center;
+    margin-left: 24px; 
+    height: 32px; 
+}
 
-} 
+.logo-text {
+    margin-left: 5px;
+    font-size: 24px;  
+}
+
+.logo-grey-text {
+    color: grey; 
+}
+
+.nav-links ul {
+    display: flex; 
+    align-items: center; 
+
+}
 
 /* SECTION 1 */ 
 
