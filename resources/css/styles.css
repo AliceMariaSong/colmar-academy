@@ -9,8 +9,6 @@ body {
 nav {
     background-color: white; 
     display: flex; 
-    align-items: center; 
-    justify-content: space-between; 
     position: fixed; 
     height: 64px; 
     left: 0; 
@@ -18,6 +16,8 @@ nav {
     top: 0; 
     z-index: 1; 
     border: 1px solid lightgray; 
+    justify-content: space-between; 
+    align-items: center; 
 }
 
 .logo {
@@ -41,22 +41,33 @@ nav {
     color: grey; 
 }
 
-.nav-links ul {
+.nav-buttons {
+    display: flex;  
+    gap: 16px; 
+}
+
+.on-campus {
     display: flex; 
-    align-items: center; 
-    list-style: none; 
-    padding-right: 24px;  
 }
 
-.nav-links li {
-    padding: 0 16px; 
+.on-campus-image {
+    padding: 16px; 
 }
 
-@media only screen and (max-width: 600px) { 
-    .nav-links {
-        display: none; 
-    }
+.online {
+    display: flex; 
+}
 
+.online-image {
+    padding: 16px; 
+}
+
+.sign-in {
+    display: flex; 
+    padding-right: 24px; 
+}
+.sign-in-image {
+    padding: 16px; 
 }
 
 /* SECTION 1 */ 
@@ -211,4 +222,51 @@ nav {
 
 .our-guest-lecture-text {
     width: 80%; 
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 600px) { 
+    
+    .body {
+        width: 100%; 
+
+    }
+    
+    .nav {
+        display: flex; 
+        justify-content: space-inbetween;  
+        width: 480px; 
+
+    }
+    
+    nav h3, nav h2 {
+       display: none; 
+    }
+
+    .nav-buttons {
+        gap: 75px; 
+        display: flex; 
+        justify-content: space-between;
+        width: auto; 
+        margin-right: 24px; 
+    }
+
+    .logo {
+        width: 50px; 
+
+    }
+
+    .on-campus {
+        width: 27px; 
+    }
+
+    .online {
+        width: 27px; 
+    }
+
+    .sign-in {
+        width: 27px; 
+    }
+
 }
